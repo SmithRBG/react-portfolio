@@ -1,11 +1,12 @@
 import React from "react";
+import Photo1 from "../assets/CQ1.jpg";
 
 function Card(props) {
   return (
    
 <>
             <div class="card cardcontainer">
-            <img src="../assets/CQ1.jpg" class="card-img-top" alt="Coding Quiz Image" />
+            <img src={Photo1} class="card-img-top" alt="Coding Quiz Image" />
             <div class="card-body">
             <h5 class="card-title">Coding Quiz</h5>
             <p class="card-text">A coding quiz showcasing javascript. Take the quiz and test your luck as a goth music expert.</p>
