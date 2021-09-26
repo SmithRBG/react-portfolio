@@ -1,12 +1,10 @@
 import React from "react";
-import "styles1.css";
 
 function Card(props) {
   return (
    
 <>
-    <div class="container">
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="../assets/CQ1.jpg" class="card-img-top" alt="Coding Quiz Image" />
             <div class="card-body">
             <h5 class="card-title">Coding Quiz</h5>
@@ -15,7 +13,7 @@ function Card(props) {
             </div>
             </div>
 
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="" class="card-img-top" alt="API Search" />
             <div class="card-body">
             <h5 class="card-title">Ask Oracle</h5>
@@ -24,7 +22,7 @@ function Card(props) {
             </div>
             </div>
 
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="" class="card-img-top" alt="Markdown Maker" />
             <div class="card-body">
             <h5 class="card-title">Markdown Maker</h5>
@@ -33,7 +31,7 @@ function Card(props) {
             </div>
             </div>
 
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="" class="card-img-top" alt="Fitness Tracker" />
             <div class="card-body">
             <h5 class="card-title">Fitness Tracker</h5>
@@ -42,7 +40,7 @@ function Card(props) {
             </div>
             </div>
 
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="" class="card-img-top" alt="GitShare Application" />
             <div class="card-body">
             <h5 class="card-title">Git Share</h5>
@@ -51,7 +49,7 @@ function Card(props) {
             </div>
             </div>
 
-            <div class="card">
+            <div class="card cardcontainer">
             <img src="" class="card-img-top" alt="E-Commerce Backend" />
             <div class="card-body">
             <h5 class="card-title">E-Commerce Backend</h5>
@@ -59,7 +57,6 @@ function Card(props) {
             <a href="https://github.com/SmithRBG/E-Commerce_Back_End" class="btn btn-primary">Check it Out</a>
             </div>
             </div>
-    </div>
 </>
 
   );
