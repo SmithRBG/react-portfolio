@@ -37,6 +37,14 @@
   }
 }
 
+
 .cardcontainer {
   margin: 20px;
+  width: 18rem;
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
