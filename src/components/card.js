@@ -3,6 +3,7 @@ import React from "react";
 function Card(props) {
   return (
    
+<>
     <div class="card">
     <img src="../assets/CQ1.jpg" class="card-img-top" alt="Coding Quiz Image" />
     <div class="card-body">
@@ -20,6 +21,7 @@ function Card(props) {
     <a href="https://devinpawline.github.io/Ask_Oracle/" class="btn btn-primary">Check it Out</a>
     </div>
     </div>
+</>
 
   );
 }
